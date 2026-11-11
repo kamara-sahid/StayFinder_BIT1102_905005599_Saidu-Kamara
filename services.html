@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Accommodation | StayFinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container nav">
+        <a class="brand" href="index.html">Stay<span>Finder</span></a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="search-results.html">Find Rooms</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="search-results.html" class="nav-cta">Find a Room</a>
+    </div>
+</header>
+
+<section class="page-hero">
+    <div class="container">
+        <span class="eyebrow">EXPLORE ACCOMMODATION</span>
+        <h1>Find Your Perfect Student Home</h1>
+        <p>Discover comfortable and affordable rooms around your school.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="section-head">
+            <div>
+                <span class="eyebrow">OUR SERVICES</span>
+                <h2>Accommodation Options</h2>
+                <p>Choose the type of accommodation that suits you.</p>
+            </div>
+        </div>
+
+        <div class="filter-box">
+            <form action="search-results.html" method="get" class="search-form">
+
+                <div class="form-group">
+                    <label for="location">Location / School</label>
+                    <input type="text" id="location"
+                           name="location"
+                           placeholder="Enter your location">
+                </div>
+
+                <div class="form-group">
+                    <label for="min-price">Minimum Price</label>
+                    <input type="number" id="min-price"
+                           name="min-price"
+                           placeholder="Minimum budget">
+                </div>
+
+                <div class="form-group">
+                    <label for="max-price">Maximum Price</label>
+                    <input type="number" id="max-price"
+                           name="max-price"
+                           placeholder="Maximum budget">
+                </div>
+
+                <div class="form-group">
+                    <label for="room-type">Room Type</label>
+                    <select id="room-type" name="room-type">
+                        <option value="">All Rooms</option>
+                        <option>Single Room</option>
+                        <option>Shared Room</option>
+                        <option>Student Hostel</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn">Search Rooms</button>
+
+            </form>
+        </div>
+
+        <div class="section-head">
+            <div>
+                <span class="eyebrow">AVAILABLE OPTIONS</span>
+                <h2>Explore Our Rooms</h2>
+            </div>
+        </div>
+
+        <div class="cards">
+
+            <article class="room-card">
+                <div class="room-photo">
+                    <img src="Images/private-room.jpg"
+                         alt="Modern private student bedroom">
+                </div>
+
+                <div class="room-info">
+                    <span class="room-tag">PRIVATE</span>
+                    <h3>Single Room</h3>
+                    <p>Enjoy your privacy in a comfortable room.</p>
+                    <ul>
+                        <li>Private sleeping space</li>
+                        <li>Comfortable interior</li>
+                        <li>Suitable for one student</li>
+                    </ul>
+                    <a href="room-details.html" class="btn">View Details</a>
+                </div>
+            </article>
+
+            <article class="room-card">
+                <div class="room-photo">
+                    <img src="Images/shared-room.jpg"
+                         alt="Comfortable shared student room">
+                </div>
+
+                <div class="room-info">
+                    <span class="room-tag">BUDGET FRIENDLY</span>
+                    <h3>Shared Room</h3>
+                    <p>An affordable option for students.</p>
+                    <ul>
+                        <li>Shared accommodation</li>
+                        <li>Budget friendly</li>
+                        <li>Student environment</li>
+                    </ul>
+                    <a href="room-details.html" class="btn">View Details</a>
+                </div>
+            </article>
+
+            <article class="room-card">
+                <div class="room-photo">
+                    <img src="Images/hostel-room.jpg"
+                         alt="Student hostel accommodation">
+                </div>
+
+                <div class="room-info">
+                    <span class="room-tag">STUDENT HOSTEL</span>
+                    <h3>Student Hostel</h3>
+                    <p>Find a convenient place close to your studies.</p>
+                    <ul>
+                        <li>Student friendly environment</li>
+                        <li>Shared facilities</li>
+                        <li>Convenient accommodation</li>
+                    </ul>
+                    <a href="room-details.html" class="btn">View Details</a>
+                </div>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="section soft">
+    <div class="container cta-banner">
+        <span class="eyebrow">START YOUR SEARCH</span>
+        <h2>Your Comfortable Student Life Starts Here</h2>
+        <p>Explore available accommodation and compare your options.</p>
+        <a href="search-results.html" class="btn">Explore Rooms</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+
+            <div>
+                <h3>STAYFINDER</h3>
+                <p>Find comfortable and affordable student accommodation.</p>
+            </div>
+
+            <div>
+                <h3>QUICK LINKS</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>CONTACT</h3>
+                <p>Email: info@stayfinder.example</p>
+                <p>Phone: +232 XX XXX XXX</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 StayFinder. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

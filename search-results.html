@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results | StayFinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container nav">
+        <a class="brand" href="index.html">Stay<span>Finder</span></a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="search-results.html">Find Rooms</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="services.html" class="nav-cta">Explore Rooms</a>
+    </div>
+</header>
+
+<section class="page-hero">
+    <div class="container">
+        <span class="eyebrow">ACCOMMODATION LISTINGS</span>
+        <h1>Search Results</h1>
+        <p>Explore rooms that match your accommodation needs.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="results-heading">
+            <div>
+                <h2>Available Accommodation</h2>
+                <p>Browse our selected student accommodation options.</p>
+            </div>
+
+            <span class="result-count">3 Accommodation Options</span>
+        </div>
+
+        <div class="filter-box">
+            <form action="search-results.html" method="get"
+                  class="search-form">
+
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" id="location"
+                           name="location" placeholder="Enter location">
+                </div>
+
+                <div class="form-group">
+                    <label for="budget">Your Budget</label>
+                    <input type="number" id="budget"
+                           name="budget" placeholder="Enter budget">
+                </div>
+
+                <div class="form-group">
+                    <label for="type">Room Type</label>
+                    <select id="type" name="type">
+                        <option value="">All Types</option>
+                        <option>Single Room</option>
+                        <option>Shared Room</option>
+                        <option>Student Hostel</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn">Apply Search</button>
+
+            </form>
+        </div>
+
+        <div class="results-list">
+
+            <article class="result-card">
+
+                <div class="result-image">
+                    <img src="Images/private-room.jpg"
+                         alt="Private student room">
+                </div>
+
+                <div class="result-content">
+                    <span class="room-tag">PRIVATE ROOM</span>
+                    <h3>Comfortable Single Room</h3>
+
+                    <p class="location-text">📍 Freetown, Sierra Leone</p>
+
+                    <p>A private and comfortable room suitable for students.</p>
+
+                    <div class="room-features">
+                        <span>✓ Wi-Fi</span>
+                        <span>✓ Water Supply</span>
+                        <span>✓ Electricity</span>
+                    </div>
+
+                    <div class="result-bottom">
+                        <div>
+                            <small>Sample Monthly Price</small>
+                            <h3>Le 1,500</h3>
+                        </div>
+
+                        <a href="room-details.html" class="btn">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="result-card">
+
+                <div class="result-image">
+                    <img src="Images/shared-room.jpg"
+                         alt="Shared student accommodation">
+                </div>
+
+                <div class="result-content">
+                    <span class="room-tag">SHARED ROOM</span>
+                    <h3>Affordable Shared Room</h3>
+
+                    <p class="location-text">📍 Freetown, Sierra Leone</p>
+
+                    <p>A budget-friendly room for students who prefer shared living.</p>
+
+                    <div class="room-features">
+                        <span>✓ Shared Facilities</span>
+                        <span>✓ Water Supply</span>
+                        <span>✓ Electricity</span>
+                    </div>
+
+                    <div class="result-bottom">
+                        <div>
+                            <small>Sample Monthly Price</small>
+                            <h3>Le 800</h3>
+                        </div>
+
+                        <a href="room-details.html" class="btn">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="result-card">
+
+                <div class="result-image">
+                    <img src="Images/hostel-room.jpg"
+                         alt="Student hostel room">
+                </div>
+
+                <div class="result-content">
+                    <span class="room-tag">STUDENT HOSTEL</span>
+                    <h3>Modern Student Hostel</h3>
+
+                    <p class="location-text">📍 Freetown, Sierra Leone</p>
+
+                    <p>A welcoming accommodation option for students.</p>
+
+                    <div class="room-features">
+                        <span>✓ Shared Kitchen</span>
+                        <span>✓ Water Supply</span>
+                        <span>✓ Security</span>
+                    </div>
+
+                    <div class="result-bottom">
+                        <div>
+                            <small>Sample Monthly Price</small>
+                            <h3>Le 1,000</h3>
+                        </div>
+
+                        <a href="room-details.html" class="btn">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+
+            </article>
+
+        </div>
+
+        <div class="pagination">
+            <a href="services.html">← Previous</a>
+            <span>Page 1 of 1</span>
+            <a href="services.html">Next →</a>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer-grid">
+            <div>
+                <h3>STAYFINDER</h3>
+                <p>Helping students find suitable accommodation.</p>
+            </div>
+
+            <div>
+                <h3>QUICK LINKS</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+            </div>
+
+            <div>
+                <h3>CONTACT</h3>
+                <p>info@stayfinder.example</p>
+                <p>+232 XX XXX XXX</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 StayFinder. All Rights Reserved.
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
