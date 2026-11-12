@@ -96,6 +96,35 @@ It does not currently include a database, user authentication, dynamic room sear
 
 ## Screenshot
 
+## Home Page
+<img width="1920" height="4234" alt="Home StayFinder" src="https://github.com/user-attachments/assets/6d7b900b-6fca-4a60-81d6-b2bc1c04b6b4" />
+
+
+## About Page
+<img width="1920" height="5317" alt="About Us StayFinder" src="https://github.com/user-attachments/assets/039adf24-48d7-4313-abc9-14bf4e146123" />
+
+
+## Services Page
+<img width="1920" height="3529" alt="Services StayFinder" src="https://github.com/user-attachments/assets/a113e30e-e0ff-4f4f-bb54-75d66f6cb771" />
+
+
+## Find-Rooms Page
+<img width="1920" height="3229" alt="Search Results StayFinder" src="https://github.com/user-attachments/assets/1a52111a-b98d-4a15-afe6-ab4206edf795" />
+
+
+## Contact Page
+<img width="1920" height="2194" alt="Contact Us StayFinder" src="https://github.com/user-attachments/assets/605773ef-d36f-4fa3-a48e-e375625d4967" />
+
+
+## Room-Details Page
+<img width="1920" height="3379" alt="Room Details StayFinder" src="https://github.com/user-attachments/assets/d5082e39-7148-47fc-828e-987e41c155c5" />
+
+
+
+
+
+
+
 
 ## Conclusion
 
